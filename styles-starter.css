@@ -1,0 +1,132 @@
+/* Atlas Olofson */
+/* please make sure you change the name of this file to styles.css */
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+title  {
+    list-style-type: left;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+header {
+    list-style-type: left;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+a:hover {
+    color: white; /* Change the text color to white on hover */
+    background-color: black; /* Add a black background */
+}
+
+a {
+    text-decoration: none; /* Remove the underline */
+    color: rgb(255, 255, 255); /* Make it a blue color */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+ }
+
+h2 {
+    background-color: rgb(255, 255, 255);
+    border-radius:25px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+img {
+    text-align: center;
+    width: 35%;
+    max-width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 75px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+body {
+    background-color: rgb(71, 78, 81);
+  }
+
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 75%;
+    z-index: -15;
+}
+
+li:hover {
+    color: #618095;
+    transform: translateX(5px);
+    background-color: #000000
+}
+
+a:link {
+    color: rgb(232, 240, 232); /* Color for unvisited links */
+    text-decoration: none; /* Remove underline */
+}
+
+* {
+    box-sizing: border-box;
+    }
+
+.block {
+    height: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(66, 76, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 5px; 
+    justify-content: center;
+}
+
+.block:nth-child(1) { background-color: #54687a; }
+/* Block 2: blue */
+.block:nth-child(2) { background-color: #54687a; }
+/* Block 3: green */
+.block:nth-child(3) { background-color: #54687a; }
+/* Block 4: orange */
+.block:nth-child(4) { background-color: #54687a; }
+/* Block 5: purple */
+.block:nth-child(5) { background-color: #54687a; }
+/* Block 6: teal */
+.block:nth-child(6) { background-color: #54687a; }
+/* Block 7: teal */
+.block:nth-child(7) { background-color: #54687a; }
