@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+title  {
+    list-style-type: left;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+header {
+    list-style-type: left;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none; /* Remove the underline */
+    color: rgb(255, 255, 255); /* Make it a blue color */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+ }
+
+img {
+    margin-top: 35px;
+    text-align: center;
+    width: 120%;
+    max-width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+body {
+    background-color: rgb(115, 128, 150);
+  }
+
+section {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+footer  {
+    color: rgb(255, 255, 255); /* Make it a blue color */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
